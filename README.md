@@ -14,7 +14,7 @@ chmod +x *
 
 
 -------=
-apt-get install sqlmap && apt-get install nmap -y
+apt-get install sqlmap nmap -y
 ----wordlist
 
 git clone https://github.com/v0re/dirb.git
