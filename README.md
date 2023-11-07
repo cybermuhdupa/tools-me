@@ -6,9 +6,13 @@ mv * /usr/local/bin/
 cd ../s1mr3c/
 mv s1mr3c /usr/local/bin
 chmod +x *
+
+
 -------=
 apt-get install sqlmap && apt-get install nmap -y
 ----wordlist
+
+
 git clone https://github.com/v0re/dirb.git
 mkdir -p /usr/share/wordlists/dirb
 mv dirb/wordlists/ /usr/share/wordlists/dirb
