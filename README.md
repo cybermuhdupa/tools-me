@@ -12,10 +12,9 @@ chmod +x *
 apt-get install sqlmap && apt-get install nmap -y
 ----wordlist
 
-
 git clone https://github.com/v0re/dirb.git
 mkdir -p /usr/share/wordlists/dirb
-mv dirb/wordlists/ /usr/share/wordlists/dirb
+mv dirb/wordlists/* /usr/share/wordlists/dirb/
 rm -rf dirb
 
 HOW USER : bash s1mr3c target.com
